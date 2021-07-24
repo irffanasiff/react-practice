@@ -1,8 +1,9 @@
+import AddUser from "./Components/Users/Add.User";
 
 function App() {
   return (
-    <div className="App">
-     <h1>This is a react app</h1>
+    <div class="grid justify-items-stretch ...">
+      <AddUser />
     </div>
   );
 }
